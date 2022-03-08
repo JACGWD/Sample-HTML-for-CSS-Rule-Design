@@ -123,6 +123,7 @@ Make sure to paste the code ***at the bottom*** of the .htaccess file. Do not pa
 This code will allow two (very important) things:
 
 1. It will disable caching, which will make it easier for you to always see the latest version of your work.
+2. Allow for web fonts to be loaded without the risk of [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) errors. CORS-related errors happen frequently when using web fonts.
 
 ## EM vs REM
 
