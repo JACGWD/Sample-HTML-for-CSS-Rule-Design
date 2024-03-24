@@ -72,7 +72,7 @@ Go to [https://transfonter.org/](https://transfonter.org/)
 
 Use these settings to convert your fonts to WOFF and WOFF2 formats:
 
-![Transfonter.org settings screenshot](transfonter.png)
+![Transfonter.org settings screenshot](./img/transfonter.png)
 
 
 
@@ -84,7 +84,7 @@ Use these settings to convert your fonts to WOFF and WOFF2 formats:
 
 #### Copy the CSS @font-face rules
 
-Copy the font face rules from the Transfonter stylesheet.css to your theme's stylesheet. (Note that the path to teh fonts is relative to the CSS file.)
+Copy the font face rules from the Transfonter stylesheet.css to your theme's stylesheet. (Note that the path to the fonts is relative to the CSS file.)
 
      @font-face {
     font-family: 'Anton';
@@ -220,11 +220,11 @@ If not written in the order above, the effects on one or several states may not 
 
 One of the first decisions that must be taken is <u>whether or not you want the background colors of the content to reach the edge of the browser window</u>. In that case, do not give the body any padding.
 
-![Body Tag Has Padding](./body-padding.png)
+![Body Tag Has Padding](./img/body-padding.png)
 
 If the body tag has padding, the contents of the page will be surrounded by white space.
 
-![Body Tag Has No Padding](./body-no-padding.png)
+![Body Tag Has No Padding](./img/body-no-padding.png)
 
 If the body tag has no padding, the contents of the page will touch the edge of the browser window.
 
